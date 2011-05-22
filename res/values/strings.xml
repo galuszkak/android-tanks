@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, tank!</string>
     <string name="app_name">Tank</string>
     <string name="button_start">Start</string>
     <string name="game_name">game</string>
+    <string name="opis">Game of Skierkowski/\Galuszka Company</string>
+    <string name="credits_text">Credits</string>
 </resources>

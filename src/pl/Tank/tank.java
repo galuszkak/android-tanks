@@ -14,21 +14,24 @@ public class tank extends Activity implements OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        View button = findViewById(R.id.start_button);
-        button.setOnClickListener(this);
-        
+        View start = findViewById(R.id.start);
+        start.setOnClickListener(this);
+        View credits = findViewById(R.id.credits);
+        credits.setOnClickListener(this);
         
     }
 
 	public void onClick(View v) {
 		switch(v.getId()){
-		case R.id.start_button:
-			Intent i = new Intent(this, game.class);
-			startActivity(i);
+		case R.id.start:
+			Intent game = new Intent(this, game.class);
+			startActivity(game);
 			break;
-		
+		case R.id.credits:
+			Intent credits = new Intent(this, credits.class);
+			startActivity(credits);
+			break;
 		}
-		
 	}
     
 }
