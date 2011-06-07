@@ -1,6 +1,7 @@
 package pl.Tank;
 
 import android.app.Activity;
+import android.view.View;
 
 /**
  * @author Nicolas Gramlich
@@ -9,6 +10,6 @@ import android.app.Activity;
 public class game extends Activity {
 		
 	public void onCreate(){
-		
+		View a;
 	}
 }
