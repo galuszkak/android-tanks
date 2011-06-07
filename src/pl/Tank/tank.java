@@ -15,10 +15,10 @@ public class tank extends Activity implements OnClickListener{
         setContentView(R.layout.main);
         
         View start = findViewById(R.id.start);
+     //   Button start_Button = (Button) findViewById(R.id.start);
         start.setOnClickListener(this);
         View credits = findViewById(R.id.credits);
         credits.setOnClickListener(this);
-        
     }
 
 	public void onClick(View v) {
