@@ -52,7 +52,7 @@ public class czolg {
 	
 	//other methods	
 	public void makeStep() {
-		this.x = Math.cos(angle)*speed;
-		this.y = Math.sin(angle)*speed;		
+		this.x = x+(Math.cos(angle)*speed);
+		this.y = y+(Math.sin(angle)*speed);		
 	}
 }
