@@ -42,7 +42,7 @@ public class czolg {
 		this.speed = speed;
 	}
 	
-	public void setAngle(double angle) {
+	public void setAngle(double  angle) {
 		this.angle = angle;
 	}
 	
